@@ -1,4 +1,4 @@
-# Class 2 Homework 📒
+# Class 3 Homework 📒
 ## Task 1
 Create new console application “RealCalculator” that takes two numbers from the console and asks what operation would the user want to be done ( +, - , * , / ).
 Then it returns the result. Use a switch statement.
