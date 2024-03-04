@@ -1,7 +1,7 @@
 # Homework Class 4 📒
 
 ## Task 1
-Make a console application called SumOfEven. Inside it create an array of 6 integers. Get input numbers from the console and push them to an array. 
+Make a console application called SumOfEven. Inside it create an array of 6 integers. Get input numbers from the console and push them to the array. 
 Find and print the sum of the even numbers from the array:
 * Test Data:
   * Enter integer no.1:
