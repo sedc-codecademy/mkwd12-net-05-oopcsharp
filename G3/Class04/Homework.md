@@ -35,10 +35,18 @@ Find and print the sum of the even numbers from the array:
   * Branko
   * Trajko
   
-   ## Task 3
-* Make a method called AgeCalculator
-* The method will have one input parameter, your birthday date
-* The method should return your age
-* Show the age of a user after he inputs a date
->Note: take into consideration if the birthday is today, after or before today
-> Note: take into consideration if the birthday is today, after or before today
+  ## Task 3
+  * Declare 5 arrays with 5 elements in them:
+* With words
+* With decimal values
+* With characters from keyboard
+* With true/false values
+* With arrays, each holding 2 whole numbers
+
+  ## Task 4
+  * Create an array with names
+* Give an option to the user to enter a name from the keyboard
+* After entering the name put it in the array
+* Ask the user if they want to enter another name(Y / N)
+* Do the same process over and over until the user enters N
+* Print all the names after user enters N
