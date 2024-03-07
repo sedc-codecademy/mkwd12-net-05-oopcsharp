@@ -53,3 +53,51 @@ static void Exercise1()
 Exercise1();
 
 #endregion
+
+
+#region Exercise 3
+static bool SubstringsExercise()
+{
+    string message = "Hello from Qinshift Codecademy 2024";
+    Console.WriteLine("Please enter a number");
+
+    string resultString = "";
+    if (!int.TryParse(Console.ReadLine(), out int parsedInput))
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("You have entered an incorrect format,\nPress any key to try again!");
+        Console.ResetColor();
+        return false;
+    }
+    if (parsedInput > message.Length)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("You have entered an incorrect number,\nPress any key to try again!");
+        Console.ResetColor();
+        return false;
+    }
+    for (int i = 0; i < parsedInput; i++)
+    {
+        resultString += message[i];
+    }
+    Console.WriteLine(resultString);
+    return true;
+    //resultString = message.Substring(0, parsedInput);
+    //Console.WriteLine(resultString + " " + "length of new string is " + resultString.Length);
+}
+while (!SubstringsExercise())
+{
+    Console.ReadLine();
+    Console.Clear();
+}
+#endregion
+
+
+#region Exercise 4
+DateTime today = DateTime.Today;
+Console.WriteLine(today.AddDays(3));
+Console.WriteLine(today.AddMonths(1).AddDays(3));
+Console.WriteLine(today.AddYears(-1).AddMonths(-2));
+Console.WriteLine(string.Format("{0:MMMM}", today));
+Console.WriteLine(today.ToString("yyyy"));
+#endregion
