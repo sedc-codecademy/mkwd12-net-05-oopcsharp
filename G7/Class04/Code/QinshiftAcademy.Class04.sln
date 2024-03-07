@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.RetroExercise2", "QinshiftAcademy.Class04.RetroExercise2\QinshiftAcademy.Class04.RetroExercise2.csproj", "{BA58967C-1B6B-4986-A1EB-E4E6E6FD5F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QinshiftAcademy.Class04.RetroExercise2", "QinshiftAcademy.Class04.RetroExercise2\QinshiftAcademy.Class04.RetroExercise2.csproj", "{BA58967C-1B6B-4986-A1EB-E4E6E6FD5F7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.Methods", "QinshiftAcademy.Class04.Methods\QinshiftAcademy.Class04.Methods.csproj", "{46B12671-AF69-4581-A55D-BCC7DEA9B55E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QinshiftAcademy.Class04.Methods", "QinshiftAcademy.Class04.Methods\QinshiftAcademy.Class04.Methods.csproj", "{46B12671-AF69-4581-A55D-BCC7DEA9B55E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.MethodsExercise", "QinshiftAcademy.Class04.MethodsExercise\QinshiftAcademy.Class04.MethodsExercise.csproj", "{60EB49D5-E428-4703-AF1A-CCF7941FEF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QinshiftAcademy.Class04.MethodsExercise", "QinshiftAcademy.Class04.MethodsExercise\QinshiftAcademy.Class04.MethodsExercise.csproj", "{60EB49D5-E428-4703-AF1A-CCF7941FEF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.Strings", "QinshiftAcademy.Class04.Strings\QinshiftAcademy.Class04.Strings.csproj", "{E187B614-F789-45F4-BBEE-29C7E6363A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QinshiftAcademy.Class04.Strings", "QinshiftAcademy.Class04.Strings\QinshiftAcademy.Class04.Strings.csproj", "{E187B614-F789-45F4-BBEE-29C7E6363A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.RetroExercise1", "QinshiftAcademy.Class04.RetroExercise1\QinshiftAcademy.Class04.RetroExercise1.csproj", "{FCEF55AD-04AE-40A3-A6FA-97758034A0A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QinshiftAcademy.Class04.RetroExercise1", "QinshiftAcademy.Class04.RetroExercise1\QinshiftAcademy.Class04.RetroExercise1.csproj", "{FCEF55AD-04AE-40A3-A6FA-97758034A0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class04.Arrays", "QinshiftAcademy.Class04.Arrays\QinshiftAcademy.Class04.Arrays.csproj", "{013E485F-1744-4AEA-B928-130B97C2744D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FCEF55AD-04AE-40A3-A6FA-97758034A0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEF55AD-04AE-40A3-A6FA-97758034A0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEF55AD-04AE-40A3-A6FA-97758034A0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013E485F-1744-4AEA-B928-130B97C2744D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013E485F-1744-4AEA-B928-130B97C2744D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013E485F-1744-4AEA-B928-130B97C2744D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013E485F-1744-4AEA-B928-130B97C2744D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
