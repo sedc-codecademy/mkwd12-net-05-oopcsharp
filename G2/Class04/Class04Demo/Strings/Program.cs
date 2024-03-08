@@ -173,7 +173,11 @@ int nonExistingString = ourTestString.IndexOf("Nope");
 Console.WriteLine(indexOfString);
 Console.WriteLine(nonExistingString);
 
-// 12) ToCharArray
+// 12) LastIndexOf
+// => returns the index of the last occurrence of a certain string/char, or -1 if it's not found
+Console.WriteLine(ourTestString.LastIndexOf('.'));
+
+// 13) ToCharArray
 // => Creates an array of characters with every character from our string
 char[] chars = ourTestString.ToCharArray();
 Console.WriteLine(chars.Length);
