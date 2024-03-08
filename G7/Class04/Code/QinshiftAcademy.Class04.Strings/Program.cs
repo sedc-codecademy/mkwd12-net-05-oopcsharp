@@ -75,3 +75,30 @@ string defaultString = null;
 bool stringIsNullOrEmpty = string.IsNullOrEmpty(sentence);
 Console.WriteLine(stringIsNullOrEmpty);
 
+bool SubstringsExercise()
+{
+    string message = "Hello from SEDC Codecademy 2021";
+    Console.WriteLine("Please enter a number");
+    int result;
+
+    string messageSubstring = "";
+    if (int.TryParse(Console.ReadLine(), out result) != true)
+    {
+        Console.WriteLine("You have entered an incorrect format,\nPress any key to try again!");
+        return false;
+    }
+    if (result > message.Length)
+    {
+        Console.WriteLine("You have entered an incorrect number,\nPress any key to try again!");
+        return false;
+    }
+
+    messageSubstring = message.Substring(0, result);
+    Console.WriteLine(messageSubstring);
+    return true;
+}
+while (!SubstringsExercise())
+{
+    Console.ReadLine();
+}
+
