@@ -41,7 +41,7 @@ Console.WriteLine("\n============= Parsing =============\n");
 //string stringDate = "12/15/2012 11:14:34";
 //string stringDate = "12/15/12";
 //string stringDate = "dec.15.12";
-string stringDate = "12-14-2020";
+string stringDate = "09.03.2024";
 DateTime convertedDate = DateTime.Parse(stringDate);
 Console.WriteLine(convertedDate);
 #endregion
