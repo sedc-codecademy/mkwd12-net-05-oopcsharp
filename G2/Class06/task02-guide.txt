@@ -1,0 +1,35 @@
+Steps when solving some problem:
+*1) Read the requirement
+*2) Break it into smaller logical pieces
+*3) Implement them separately ! (one by one)
+
+4) Test your app
+5) Review your code and refactor it if needed
+
+
+TASK 02:
+
+[0] Create Console app
+
+[1] Create class User
+
+[2] Create array with 3 users
+
+[3] Get user to choose an option ( 1. Login, 2. Register )
+
+[4] Log in
+    4.1. Ask for username & password
+    4.2. Check if there is a user with these credentials in the array
+        4.2.1. If yes, welcome message + Messages
+        4.2.2. If no, print error message ("User not found!")
+
+[5] Register
+    5.1. Ask for inputs (ID, Username, Password)
+        5.1.1. Validate the inputs
+    5.2. Check if there is a user with the input username in the array.
+        5.2.1. If yes, print "User already exists"
+        5.2.2. If no, create new User object with inputs
+            5.2.2.1. Add it to the Users array
+            5.2.2.2. Print all the users by Id and Username
+
+[6] Great job :)
