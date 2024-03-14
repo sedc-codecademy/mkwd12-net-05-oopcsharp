@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class07.Inheritance", "QinshiftAcademy.Class07.Inheritance\QinshiftAcademy.Class07.Inheritance.csproj", "{7A718408-24E2-420C-A3E4-DF741D2424B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.Class07.Enums", "QinshiftAcademy.Class07.Enums\QinshiftAcademy.Class07.Enums.csproj", "{1D2B024F-42D8-43B0-8E39-B1B1503B1469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A718408-24E2-420C-A3E4-DF741D2424B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A718408-24E2-420C-A3E4-DF741D2424B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A718408-24E2-420C-A3E4-DF741D2424B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A718408-24E2-420C-A3E4-DF741D2424B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2B024F-42D8-43B0-8E39-B1B1503B1469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2B024F-42D8-43B0-8E39-B1B1503B1469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2B024F-42D8-43B0-8E39-B1B1503B1469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2B024F-42D8-43B0-8E39-B1B1503B1469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F6DFF90-6C44-4349-927E-46214A4822E3}
+	EndGlobalSection
+EndGlobal
