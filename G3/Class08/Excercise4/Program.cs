@@ -22,13 +22,15 @@
 
 void RaceCars(Car firstCar, Car secondCar)
 {
-    if (firstCar.CalculateSpeed(firstCar.Driver) > secondCar.CalculateSpeed(secondCar.Driver))
+    int firstPairSpeed = firstCar.CalculateSpeed(firstCar.Driver);
+    int secondPairSpeed = secondCar.CalculateSpeed(secondCar.Driver);
+    if (firstPairSpeed > secondPairSpeed)
     {
-        Console.WriteLine($"In the race the winner car was {firstCar.Model}. It was driving with {firstCar.Speed}km/h and the driver was {firstCar.Driver.Name}.");
+        Console.WriteLine($"In the race the winner car was {firstCar.Model}. It was driving with {firstPairSpeed}km/h and the driver was {firstCar.Driver.Name}.");
     }
-    else if(firstCar.CalculateSpeed(firstCar.Driver) < secondCar.CalculateSpeed(secondCar.Driver))
+    else if(firstPairSpeed < secondPairSpeed)
     {
-        Console.WriteLine($"In the race the winner car was {secondCar.Model}. It was driving with {secondCar.Speed}km/h and the driver was {secondCar.Driver.Name}.");
+        Console.WriteLine($"In the race the winner car was {secondCar.Model}. It was driving with {secondPairSpeed}km/h and the driver was {secondCar.Driver.Name}.");
     }
     else
     {
@@ -60,6 +62,7 @@ bool endGame = false;
 
 do
 {
+    endGame = false;
     Console.WriteLine($"Please select the first car: \n1. {c1.Model}\n2.{c2.Model}\n3.{c3.Model}\n4.{c4.Model}");
     bool canParseFirstCar = int.TryParse(Console.ReadLine(), out int firstCar);
 
@@ -99,8 +102,8 @@ do
 
         Console.WriteLine("Do you want to play again? If not please enter n or N otherwise enter y or Y");
         string userInput = Console.ReadLine();
-        if (userInput.ToLower() == "n")
-            endGame = false;
+        if (userInput.ToLower() == "y")
+            endGame = true;
     }
     else
     {
