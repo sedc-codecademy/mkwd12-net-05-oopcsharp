@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.EmployeesApplication", "QinshiftAcademy.EmployeesApplication\QinshiftAcademy.EmployeesApplication.csproj", "{E0CC3191-3FBD-4143-8901-A649F4299353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.EmployeesApplication.Domain", "QinshiftAcademy.EmployeesApplication.Domain\QinshiftAcademy.EmployeesApplication.Domain.csproj", "{27B26D45-9E66-439E-BB98-333B2C5FBA68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CC3191-3FBD-4143-8901-A649F4299353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CC3191-3FBD-4143-8901-A649F4299353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CC3191-3FBD-4143-8901-A649F4299353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CC3191-3FBD-4143-8901-A649F4299353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B26D45-9E66-439E-BB98-333B2C5FBA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B26D45-9E66-439E-BB98-333B2C5FBA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B26D45-9E66-439E-BB98-333B2C5FBA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B26D45-9E66-439E-BB98-333B2C5FBA68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373AE092-19FE-4890-91DA-CBADCC55932C}
+	EndGlobalSection
+EndGlobal
