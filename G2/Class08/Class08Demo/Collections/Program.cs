@@ -123,6 +123,9 @@ foreach (var item in lastNames)
 Console.WriteLine("\n\n================== Stack<T> & Queue<T> ==================\n");
 // => don't have indexing of elements
 
+// Stack => Last in, first out (LIFO) collection. Stack is a generic collection (Stack<T>)
+// NOTE: Stack<T> provides Push(), Pop(), and Peek() methods to add, remove, and access elements.
+
 Stack<int> stack = new Stack<int>();
 stack.Push(1);
 stack.Push(2);
@@ -142,14 +145,15 @@ int lastAddedItemValue = stack.Peek();
 Console.WriteLine("The value of the LAST item is: " + lastAddedItemValue);
 Console.WriteLine(stack.Count); // 3
 
+// Queue => First in, first out (FIFO) generic collection
+// Usecase: Queues are used in scenarios such as scheduling, implementing a message queue etc.
+// Note: Queue<T> provides Enqueue(), Dequeue(), and Peek() methods to add, remove, and access elements.
 
-// Queue
 Queue<int> queue = new Queue<int>();
 queue.Enqueue(1);
 queue.Enqueue(2);
 queue.Enqueue(3);
 PrintCollectionItems(queue); // 1 2 3
-
 
 // Dequeue() => *removes and returns* the first added item in the queue
 int firstItemAdded = queue.Dequeue(); // 1
