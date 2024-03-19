@@ -1,6 +1,5 @@
 ﻿using Domain.Enums;
-using Domain.Models;
-using System;
+using Domain.Model;
 
 Console.WriteLine("============== EXERCISES ==============");
 
@@ -68,9 +67,9 @@ personOne.FavouriteSongs = new List<Song>()
     new Song("Song 3", 500, Genre.Rock),
 };
 
-personOne.PrintFavouriteSongs(); 
+personOne.PrintFavouriteSongs();
+Console.WriteLine("=== empty FavouriteSongs list ==");
+Person personTwo = new Person(100, "Person2", "Personsky2", 11, Genre.Rock);
+personTwo.FavouriteSongs = new List<Song>();
+personTwo.PrintFavouriteSongs();
 #endregion
-
-
-
-
