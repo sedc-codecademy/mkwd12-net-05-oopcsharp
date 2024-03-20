@@ -1,5 +1,5 @@
 ## Bonus Task - not mandatory
-# Heroes Journey ⚔
+# Hero's Journey ⚔
 
 ## Part 1: Log in the game 🛡
 
