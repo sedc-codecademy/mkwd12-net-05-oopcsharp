@@ -1,6 +1,11 @@
 ﻿using Domain.Enums;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Domain.Models
+namespace Domain.Model
 {
     public class Person
     {
@@ -20,7 +25,7 @@ namespace Domain.Models
             FavouriteGenre = favouriteGenre;
         }
 
-        private string GetFullName()
+        public string GetFullName()
         {
             return FirstName + " " + LastName;
         }
