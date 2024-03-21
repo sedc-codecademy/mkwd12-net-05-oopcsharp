@@ -25,7 +25,7 @@ namespace Domain.Model
             FavouriteGenre = favouriteGenre;
         }
 
-        private string GetFullName()
+        public string GetFullName()
         {
             return FirstName + " " + LastName;
         }
