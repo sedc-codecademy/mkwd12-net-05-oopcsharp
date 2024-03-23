@@ -7,7 +7,7 @@ namespace AcademyManagment.Domain.Models
         public string CurrentSubject { get; set; }
         public Dictionary<string, int> SubjectGrade { get; set; }
 
-        public Student(string firstName, string lastName, int age, string username, string password) : base(firstName, lastName, age, username, password)
+        public Student(string username, string password, string firstName, string lastName, int age) : base(username, password, firstName, lastName, age)
         {
             Role = Role.Student;
         }

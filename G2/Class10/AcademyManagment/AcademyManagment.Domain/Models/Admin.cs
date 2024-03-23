@@ -4,7 +4,7 @@ namespace AcademyManagment.Domain.Models
 {
     public class Admin : User
     {
-        public Admin(string firstName, string lastName, int age, string username, string password) : base(firstName, lastName, age, username, password)
+        public Admin(string username, string password, string firstName, string lastName, int age) : base(username, password, firstName, lastName, age)
         {
             Role = Role.Admin;
         }

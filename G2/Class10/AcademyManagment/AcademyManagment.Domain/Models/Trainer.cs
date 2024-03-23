@@ -3,7 +3,7 @@ namespace AcademyManagment.Domain.Models
 {
     public class Trainer : User
     {
-        public Trainer(string firstName, string lastName, int age, string username, string password) : base(firstName, lastName, age, username, password)
+        public Trainer(string username, string password, string firstName, string lastName, int age) : base(username, password, firstName, lastName, age)
         {
             Role = Role.Trainer;
         }
