@@ -21,5 +21,16 @@ namespace AcademyManagment.Domain.Models
             Age = age;
         }
 
+        public User(string username, string password)
+        {
+            Username = username;
+            Password = password;
+        }
+
+        public string GetFullName()
+        {
+            return $"{FirstName} {LastName}";
+        }
+
     }
 }

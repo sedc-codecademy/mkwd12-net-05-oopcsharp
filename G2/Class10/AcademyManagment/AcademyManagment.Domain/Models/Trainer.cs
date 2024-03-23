@@ -7,5 +7,10 @@ namespace AcademyManagment.Domain.Models
         {
             Role = Role.Trainer;
         }
+
+        public Trainer(string username, string password) : base(username, password)
+        {
+            Role = Role.Trainer;
+        }
     }
 }

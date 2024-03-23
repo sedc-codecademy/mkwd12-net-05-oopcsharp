@@ -8,5 +8,10 @@ namespace AcademyManagment.Domain.Models
         {
             Role = Role.Admin;
         }
+
+        public Admin(string username, string password) : base(username, password)
+        {
+            Role = Role.Admin;
+        }
     }
 }
