@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.MovieApplication", "QinshiftAcademy.MovieApplication\QinshiftAcademy.MovieApplication.csproj", "{169CDD36-7B81-497B-923B-1C54A39925A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QinshiftAcademy.MovieApplication.Domain", "QinshiftAcademy.MovieApplication.Domain\QinshiftAcademy.MovieApplication.Domain.csproj", "{9A4721EB-9468-4605-A32F-49E2C4B9B5B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169CDD36-7B81-497B-923B-1C54A39925A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169CDD36-7B81-497B-923B-1C54A39925A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169CDD36-7B81-497B-923B-1C54A39925A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169CDD36-7B81-497B-923B-1C54A39925A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4721EB-9468-4605-A32F-49E2C4B9B5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4721EB-9468-4605-A32F-49E2C4B9B5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4721EB-9468-4605-A32F-49E2C4B9B5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4721EB-9468-4605-A32F-49E2C4B9B5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAA87F3F-0867-49FA-8C7F-43DD87995ABB}
+	EndGlobalSection
+EndGlobal
